@@ -19,24 +19,25 @@
 
 | Role | Hex | CSS Variable |
 |------|-----|--------------|
-| Primary | `#0F172A` | `--color-primary` |
-| On Primary | `#FFFFFF` | `--color-on-primary` |
-| Secondary | `#1E293B` | `--color-secondary` |
-| On Secondary | `#FFFFFF` | `--color-on-secondary` |
-| Accent/CTA | `#16A34A` | `--color-accent` |
-| On Accent/CTA | `#0F172A` | `--color-on-accent` |
-| Background | `#020617` | `--color-background` |
-| Foreground | `#F8FAFC` | `--color-foreground` |
-| Card | `#0E1223` | `--color-card` |
-| Card Foreground | `#F8FAFC` | `--color-card-foreground` |
-| Muted | `#1A1E2F` | `--color-muted` |
-| Muted Foreground | `#94A3B8` | `--color-muted-foreground` |
-| Border | `#334155` | `--color-border` |
-| Destructive | `#DC2626` | `--color-destructive` |
-| On Destructive | `#FFFFFF` | `--color-on-destructive` |
-| Ring | `#FFFFFF` | `--color-ring` |
+| Accent/CTA | `#2563EB` | `--color-accent` |
+| Accent Hover | `#1D4ED8` | `--color-accent-hover` |
+| On Accent/CTA | `#FFFFFF` | `--color-accent-fg` |
+| Accent Text | `#1D4ED8` | `--color-accent-text` |
+| Background | `#F8FAFC` | `--color-bg` |
+| Foreground | `#0F172A` | `--color-fg` |
+| Card | `#FFFFFF` | `--color-card` |
+| Surface | `#F1F5F9` | `--color-surface` |
+| Raised | `#E2E8F0` | `--color-raised` |
+| Muted Foreground | `#475569` | `--color-muted` |
+| Border | `#E2E8F0` | `--color-line` |
+| Border (inputs) | `#CBD5E1` | `--color-line-strong` |
+| Success | `#15803D` | `--color-success` |
+| Destructive | `#DC2626` / text `#B91C1C` | `--color-danger` / `--color-danger-text` |
+| Warning | `#D97706` / text `#B45309` | `--color-warn` / `--color-warn-text` |
+| Info | `#0369A1` | `--color-info-text` |
+| Ring | `#2563EB` | focus outline |
 
-**Color Notes:** Dark terminal + running green + failed red + queued amber
+**Color Notes:** Light theme. Trust blue = brand/CTA/running; green only for success/listed; red failed; amber queued/review. Do not use `text-success` for brand emphasis.
 
 ### Typography
 

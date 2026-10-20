@@ -1,0 +1,10 @@
+# 私有数据（真实提交记录、备注、徽章代码）不入库
+data/private/
+*.xlsx
+
+# 引擎密钥
+engine/.env
+# 后端密钥
+backend/.env
+__pycache__/
+.pytest_cache/
